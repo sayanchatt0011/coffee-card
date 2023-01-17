@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.container{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: hsl(30, 38%, 92%);
+     /* display: flex;
+     justify-content: center; 
+     align-items: center;   */
+    
+}
+ .card{
+    height: 400px;
+    width: 700px;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    margin: 10% auto;
+    padding-right:2rem ;
+}
+
+.coffee{
+    height: 100%;
+    width: 300px;
+    margin: 0 2rem 0 0;
+    border-radius: 2rem 0 0 2rem;
+    /* overflow: hidden;
+    object-fit: cover; */
+}
+.title{
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 1.3rem;
+}
+
+h1{
+    width: 60%;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    font-style: bold;
+    margin: 0.6em 0 0.7em 0;
+}
+.product-detail{
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 1rem;
+    position: relative;
+}
+.recent-price{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0;
+    color: hsl(158, 36%, 37%);
+}
+.button{
+    display: block;
+    margin: 2em 0 1em 0;
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    padding: 1em 0;
+    color: white;
+    border: 0;
+    border-radius: 0.7em;
+    /* outline: none; */
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: hsl(158, 58%, 21%);
+} 
